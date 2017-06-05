@@ -12,7 +12,7 @@ var gulp = require('gulp'),
 
 //DIST - SRC -------------------------------------------------------
 var dist_js = 'dist/js';
-var dist_css = 'dist/css';
+var dist_css = 'dist/';
 var dist_img = 'dist/img';
 
 var src_sass = 'scss/**/*.scss';
@@ -60,4 +60,4 @@ gulp.task('watch', function(){
 
 //--------------------------------------------------------------
 
-gulp.task('default', ['watch', 'sass', 'js', 'img']);
+gulp.task('default', ['watch', 'sass', 'js']);
