@@ -1,55 +1,200 @@
 @import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Inconsolata');
-div{
-  padding: 20px;
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter|Bubbler+One|Indie+Flower|Patrick+Hand+SC');
+body{
+  background-color: #FFA300;
+  padding: 0px;
+}
+
+header{
+  clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 60% 75%, 50% 90%, 40% 75%, 0% 75%);
+  background-color: #5de53b;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  height: 400px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  transition: height 0.2s linear 0s;
+  z-index: 3000;
+  box-shadow: 0px 10px 5px rgba(0,0,0,0.3);
   img#logo {
-    width: 70%;
-    height: auto;
+    height: 70%;
+    width: auto;
     margin-bottom: 100px;
+    display: inline-block;
   }
-  h2{
-    font-family: 'Gloria Hallelujah', cursive;
-  }
-  ul{
-    list-style: none;
-    li{
-      padding-top: 10px;
-      font-size: 25px;
-      font-family: 'Inconsolata', monospace;
+  div#menu{
+    display: inline-block;
+    height: 100%;
+    position:absolute;
+    top:10px;
+    right:20px;
+    left:230px;
+    display: none;
+    width: auto;
+    text-align: right;
+    span{
+      display: inline-block;
+      background: #31ba25;
+      border: 1px solid #2ca821;
+      border-radius: 2px;
+      margin: 2px;
+      padding: 2px;
+      color: white;
+      font-family: 'Bubbler One', sans-serif;
+      font-size:20px;
+    // font-family: 'Patrick Hand SC', cursive;
+    // font-family: 'Indie Flower', cursive;
+    // font-family: 'Architects Daughter', cursive;
     }
   }
-  &:nth-child(3n+1){
-    background-color: #FFA300;
-    width: 90%;
-    margin: 0 auto;
-    padding-bottom: 100px;
+}
+
+section{
+  div{
+    width: 100%;
+    padding: 20px;
+    h2{
+      font-family: 'Gloria Hallelujah', cursive;
+    }
+    ul{
+      list-style: none;
+      li{
+        padding-top: 10px;
+        font-size: 25px;
+        font-family: 'Inconsolata', monospace;
+      }
+    }
+    &:nth-child(1){
+      background-color: #FFA300;
+      margin: 0 auto;
+      margin-top:300px;
+      padding-bottom: 100px;
+      padding-top: 70px;
+    }
+    &:nth-child(3n+2){
+      clip-path: polygon(0 100px, 100% 0, 100% 100%, 0% 100%);
+      background-color: #005E9E;
+      color: white;
+      text-align: right;
+      margin: -100px auto 0px auto;
+      padding-top: 110px;
+      padding-bottom: 100px;
+    }
+    &:nth-child(3n+3){
+      background-color: #FFA300;
+      margin: 0 auto;
+      padding-bottom: 100px;
+      padding-top: 70px;
+    }
+    &:nth-child(3n+4){
+      clip-path: polygon(0 0, 100% 100px, 100% 100%, 0% 100%);
+      background-color: #5de53b;
+      text-align: center;
+      margin: 0 auto;
+      margin-top: -100px;
+      padding-top: 110px;
+
+    }
   }
-  &:nth-child(3n+2){
-    clip-path: polygon(0 100px, 100% 0, 100% 100%, 0% 100%);
-    background-color: #005E9E;
-    color: white;
-    text-align: right;
-    width: 90%;
-    margin: -100px auto 0px auto;
-    padding-top: 110px;
-    padding-bottom: 100px;
+}
+
+footer{
+  clip-path: polygon(50% 0, 60% 25%, 100% 25%, 100% 100%, 0 100%, 0% 25%, 40% 25%);
+  background-color: #5de53b;
+  text-align: center;
+  margin: 0 auto;
+  height: 300px;
+  z-index: 2000;
+  margin-top: -75px;
+  padding-top: 125px;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 30px;
+  img{
+    width: 100px;
+    height: auto;
+    display: inline-block;
   }
-  &:nth-child(3n+3){
-    clip-path: polygon(0 0, 100% 100px, 100% 100%, 0% 100%);
-    // clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 60% 75%, 50% 90%, 40% 75%, 0% 75%);
-    background-color: #5de53b;
-    text-align: center;
-    width: 90%;
-    margin: 0 auto;
-    margin-top: -100px;
-    padding-top: 110px;
+}
+
+div#backToTop{
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: rgba(255,255,255,0.4);
+  padding: 0;
+  a{
+    i {
+    color: #474747;
+    font-size: 40px;
+    transition: color 0.3s linear 0s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    &:hover{
+      color: #6d6d6d;
+    }
   }
-  &#logoDiv{
-    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 60% 75%, 50% 90%, 40% 75%, 0% 75%);
-    background-color: #5de53b;
-    text-align: center;
-    width: 90%;
-    margin: 0 auto;
-    margin-bottom: -150px;
-    margin-top: -70px;
+  }
+
+}
+
+
+@media screen and (max-width: 880px) {
+  header{
+    height: 200px;
+    img#logo {
+      height: 70%;
+      width: auto;
+      margin-bottom: 100px;
+    }
+  }
+  section{
+    div{
+      font-size: 10px;
+    }
+    div:nth-child(1){
+      margin-top: 100px;
+    }
+    div ul{
+      li{
+        padding-top: 10px;
+        font-size: 15px;
+        font-family: 'Inconsolata', monospace;
+      }
+    }
+  }
+
+}
+
+@media screen and (max-width: 475px) {
+  header{
+    height: 100px;
+    img#logo {
+      height: 70%;
+      width: auto;
+      margin-bottom: 100px;
+    }
+  }
+  section{
+    div{
+      font-size: 10px;
+    }
+    div:nth-child(1){
+      margin-top: 0px;
+    }
+    div ul{
+      li{
+        padding-top: 10px;
+        font-size: 15px;
+        font-family: 'Inconsolata', monospace;
+      }
+    }
   }
 }

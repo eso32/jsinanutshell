@@ -1,0 +1,133 @@
+[
+  {
+    "title":"Selecting elements",
+    "content":[
+      "document.getElementById('id')",
+      "document.getElementsByTagName('tag') - returns collection",
+      "document.getElementsByClassName('class') - returns collection",
+      "document.querySelector('.someClass')",
+      "document.querySelectorAll('p:nth-child(3n+1)') - returns collection"
+    ]
+  },
+  {
+    "title":"ASelecting elements",
+    "content":[
+      "document.getElementById('id')",
+      "document.getElementsByTagName('tag') - returns collection",
+      "document.getElementsByClassName('class') - returns collection",
+      "document.querySelector('.someClass')",
+      "document.querySelectorAll('p:nth-child(3n+1)') - returns collection"
+    ]
+  },
+  {
+    "title":"BSelecting elements",
+    "content":[
+      "document.getElementById('id')",
+      "document.getElementsByTagName('tag') - returns collection",
+      "document.getElementsByClassName('class') - returns collection",
+      "document.querySelector('.someClass')",
+      "document.querySelectorAll('p:nth-child(3n+1)') - returns collection"
+    ]
+  },
+  {
+    "title":"CSelecting elements",
+    "content":[
+      "document.getElementById('id')",
+      "document.getElementsByTagName('tag') - returns collection",
+      "document.getElementsByClassName('class') - returns collection",
+      "document.querySelector('.someClass')",
+      "document.querySelectorAll('p:nth-child(3n+1)') - returns collection"
+    ]
+  },
+  {
+    "title":"DSelecting elements",
+    "content":[
+      "document.getElementById('id')",
+      "document.getElementsByTagName('tag') - returns collection",
+      "document.getElementsByClassName('class') - returns collection",
+      "document.querySelector('.someClass')",
+      "document.querySelectorAll('p:nth-child(3n+1)') - returns collection"
+    ]
+  },
+  {
+    "title":"ESelecting elements",
+    "content":[
+      "document.getElementById('id')",
+      "document.getElementsByTagName('tag') - returns collection",
+      "document.getElementsByClassName('class') - returns collection",
+      "document.querySelector('.someClass')",
+      "document.querySelectorAll('p:nth-child(3n+1)') - returns collection"
+    ]
+  },
+  {
+    "title":"FSelecting elements",
+    "content":[
+      "document.getElementById('id')",
+      "document.getElementsByTagName('tag') - returns collection",
+      "document.getElementsByClassName('class') - returns collection",
+      "document.querySelector('.someClass')",
+      "document.querySelectorAll('p:nth-child(3n+1)') - returns collection"
+    ]
+  },
+  {
+    "title":"GSelecting elements",
+    "content":[
+      "document.getElementById('id')",
+      "document.getElementsByTagName('tag') - returns collection",
+      "document.getElementsByClassName('class') - returns collection",
+      "document.querySelector('.someClass')",
+      "document.querySelectorAll('p:nth-child(3n+1)') - returns collection"
+    ]
+  },
+  {
+    "title":"HSelecting elements",
+    "content":[
+      "document.getElementById('id')",
+      "document.getElementsByTagName('tag') - returns collection",
+      "document.getElementsByClassName('class') - returns collection",
+      "document.querySelector('.someClass')",
+      "document.querySelectorAll('p:nth-child(3n+1)') - returns collection"
+    ]
+  }
+  ,
+  {
+    "title":"ISelecting elements",
+    "content":[
+      "document.getElementById('id')",
+      "document.getElementsByTagName('tag') - returns collection",
+      "document.getElementsByClassName('class') - returns collection",
+      "document.querySelector('.someClass')",
+      "document.querySelectorAll('p:nth-child(3n+1)') - returns collection"
+    ]
+  },
+  {
+    "title":"JSelecting elements",
+    "content":[
+      "document.getElementById('id')",
+      "document.getElementsByTagName('tag') - returns collection",
+      "document.getElementsByClassName('class') - returns collection",
+      "document.querySelector('.someClass')",
+      "document.querySelectorAll('p:nth-child(3n+1)') - returns collection"
+    ]
+  },
+  {
+    "title":"KSelecting elements",
+    "content":[
+      "document.getElementById('id')",
+      "document.getElementsByTagName('tag') - returns collection",
+      "document.getElementsByClassName('class') - returns collection",
+      "document.querySelector('.someClass')",
+      "document.querySelectorAll('p:nth-child(3n+1)') - returns collection"
+    ]
+  },
+  {
+    "title":"LSelecting elements",
+    "content":[
+      "document.getElementById('id')",
+      "document.getElementsByTagName('tag') - returns collection",
+      "document.getElementsByClassName('class') - returns collection",
+      "document.querySelector('.someClass')",
+      "document.querySelectorAll('p:nth-child(3n+1)') - returns collection"
+    ]
+  }
+]
