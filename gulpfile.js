@@ -6,7 +6,8 @@ var gulp = require('gulp'),
     minify_css = require('gulp-minify-css'),
     uglify = require('gulp-uglify'),
     notify = require('gulp-notify'),
-    autoprefixer = require('gulp-autoprefixer')
+    autoprefixer = require('gulp-autoprefixer'),
+    babel = require('gulp-babel'),
     jshint = require('gulp-jshint'),
     browserSync = require('browser-sync');
 
@@ -36,6 +37,7 @@ gulp.task('sass', function () {
 gulp.task('js', function(){
   return gulp.src(src_js)
   .pipe(plumber())
+  .pipe(babel({presets: ['env']}))
   .pipe(jshint())
   .pipe(jshint.reporter('default'))
   .pipe(uglify())

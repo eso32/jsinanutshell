@@ -11,7 +11,7 @@ window.addEventListener('scroll', () => {
     logoDiv.style.textAlign = 'left';
     menu.style.display = 'block';
     if(window.innerWidth < 600){
-      menu.style.display = 'none';
+      menu.style.display = 'none'; 
     }
 	} else if (yPos < 90){
     backToTop.style.display = 'none';
